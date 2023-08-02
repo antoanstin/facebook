@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding:0 ;
+    box-sizing: border-box;
+}
+.face-sec{
+    height:100vh;   
+    background-color: #f0f2f5;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+.face-row{
+    display: flex;
+
+}
+.heer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.face-col{
+    width:50%;
+}
+
+img{
+    width:50%;
+    margin-left: -25px;
+}
+p{
+    font-size:30px;
+}
+.face-con-col{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.face-form-card{
+    
+   padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ccc;
+    margin:0 auto;
+    width:380px;
+}
+.face-form-col{
+    margin: 10px;
+    
+}
+input{
+    margin-bottom: 15px;
+    font-size: 16px;
+    display:block;
+    width:100%;
+    border:none;
+    background-color: #fff;
+    border:1px solid #ccf;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    padding: 15px 10px;
+    
+}
+input:focus{
+    outline: 0.5px solid #1877f2;
+}
+.btn{
+    font-weight: bold;
+    color:#fff;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 338px;
+    
+}
+.text-center{
+    text-align: center;
+}
+a{
+    
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+.for-pass{
+    padding: 15px 0;
+    border-bottom: 1px solid #f0f2f5;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-line: 1px solid  #1877f2;
+}
+.btn-c{
+    font-weight: bold;
+    color:#fff;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 200px;
+    margin: 20px 0;
+}
+.password-msg,.confpass-msg,.error-msg{
+    color:red;
+    font-size: 14px;
+    font-weight: 500;
+    display:none;
+ }
+ .invalid-input{
+    display:block !important;
+  }
+  .e-error,.p-error{
+    color:red;
+    font-size: 14px;
+    font-weight: 500;
+  }
+ .hide{
+    display:none;
+ }

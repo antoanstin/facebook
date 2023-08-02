@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+.section{
+    height: 100vh;
+    padding: 30px 55px;
+}
+.container{
+    width:34%;
+    margin: auto;
+}
+.sign-up-card{
+    border-radius: 7px;
+
+    padding: 14px;
+    box-shadow: 0 0 10px #ccc;
+}
+.head{
+    padding-bottom: 15px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+.content>p{
+    color: #5a5a5a;
+    padding:5px;
+}
+.form_name{
+    width:100%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+    padding-top: 14px;
+}
+.hel{
+    width:50%;
+}
+    input:focus{
+        outline:none;
+    }
+
+.inp{
+    background-color:rgb(242, 242, 243) ;
+    font-size: 15px;
+    line-height: 16px;
+    padding:11px 9px;
+    border-radius: 5px;
+    border:1px solid rgb(163, 163, 167);
+}
+.numb{
+    width:100%;
+    margin-top: 10px;
+}
+.pass{
+    width:100%;
+    margin-top: 10px;
+
+}
+.birth{
+    margin-top: 12px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:4px;
+}
+.birth>p{
+    font-size: 13px;
+    color:#5a5a5a;
+}
+.birth>i{
+    font-size: 12px;
+    color:#5a5a5a;
+}
+.form_birth{
+    display:flex;
+    gap:13px;
+}
+.i_col{
+    width:33%;
+    background-color:#fff!important;
+}
+.gender{
+    display: flex;
+    gap:13px;
+}
+.nm{
+    width:33.3%;
+    background-color:#fff ;
+    font-size: 15px;
+    line-height: 16px;
+    padding:11px 9px;
+    border-radius: 5px;
+    border:1px solid rgb(163, 163, 167);
+    display: flex;
+    justify-content: space-between
+}
+.learn>p{
+    font-size: 11px;
+    color: rgb(146, 146, 148);
+    margin-top: 12px;
+}
+.policy>p{
+    font-size: 11px;
+    color: rgb(146, 146, 148);
+    margin-top: 15px;
+}
+.btn-c{
+    font-weight: bold;
+    color:#fff;
+    background-color: #3dad26;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 35px;
+    padding: 0 12px;
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 14px;
+}
+.creat{
+    text-align: center;
+
+}
+.password-msg,.confpass-msg,.error-msg{
+    padding-top: 5px;
+    color:red;
+    font-size: 14px;
+    font-weight: 500;
+    display:none;
+ }
+ .invalid-input{
+    display:block !important;
+  }
